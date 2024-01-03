@@ -1,0 +1,1 @@
+RIOT API KEY Refreshes every 24 hours. Please visit https://developer.riotgames.com/ and either login or make an account to get the new API KEY and test if you need to run the code. 

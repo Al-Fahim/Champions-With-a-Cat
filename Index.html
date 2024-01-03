@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Riot Games API and Meowfacts Mashup App</title>
+  <style>
+    body, form {
+      margin: 20px auto;
+      max-width: 800px;
+      overflow-x: hidden;
+    }
+    fieldset {
+      display: flex;
+    }
+    input#description {
+      flex-grow: 50;
+      margin: 0 20px;
+    }
+    input#location {
+      flex-grow: 50;
+      margin: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <form action="/search" method="get">
+    <fieldset>
+      <legend>Riot Games API and Meowfacts Mashup App</legend>
+      <label for="rotation">Display Champion Rotation:</label>
+      <input type="radio" name="rotation" value="yes" checked> Yes
+      <input type="radio" name="rotation" value="no"> No
+
+    </fieldset>
+    <input type="submit" value="Submit" />
+  </form>
+</body>
+</html>
